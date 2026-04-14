@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Elements</title>
+</head>
+
+
+<style media="screen">
+  div {
+    width: 320px;
+    padding: 10px;
+    border: 5px gray;
+    margin: 0;
+  }
+
+  table,
+  td,
+  th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 15px;
+  }
+
+  .box {
+    border: 5px;
+    border-radius: 5px;
+    background-color: lightgray;
+    width:300px;
+    padding: 20px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 5px;
+    background-color: lightgray;
+
+  }
+
+  .te {
+    padding: 0px;
+    margin: 50px auto;
+  }
+</style>
+
+<body>
+  <h1>HTML Elements</h1>
+  <br>
+  <hr>
+  <br>
+  <a href="#">Home</a> &emsp;
+  <a href="#">Headers</a>&emsp;
+  <a href="#">Table</a>&emsp;
+  <a href="#">List</a>&emsp;
+  <a href="#">Textformats</a>&emsp;
+  <a href="#">Blockquotes</a>
+  <br>
+  <br>
+  <hr>
+  <p>This is a Information systems architecture and performance Assignment</p>
+  <h2>Header 2</h2>
+
+  <h3>Header 3</h3>
+
+  <h4>Header 4</h4>
+
+  <h5>Header 5</h5>
+
+  <h6>Header 6</h6>
+
+  <hr>
+  <p>Lorem ipsum dolor sit amet, <a href="#">Test link</a>.now this is gong to be <strong>This is strong.</strong>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+    <u>Underline</u> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+    officia deserunt mollit anim id est laborum.
+  </p>
+  <br>
+  <p>If you are the content provider, read HTML. If you are the graphic designer, read CSS. If you are a programmer and <del>Dinner at 5:00</del> to add dynamic <mark>Lets make that 7</mark> to your web page, read JavaScript. But if you operate in
+    OMO (one-man-operated) and are expected to create a reasonably good-looking website, you need to understand HTML, CSS and JavaScript. This is the reason that I combine both the HTML and CSS in this article as they are inseparable.</p>
+  <br>
+  <hr>
+  <h2>Table</h2>
+  <table>
+    <tr>
+      <th>Header</th>
+      <th>Loader</th>
+      <th>Footer</th>
+    </tr>
+    <tr>
+      <td>P1</td>
+      <td>Karthik</td>
+      <td>Panguluri</td>
+    </tr>
+    <tr>
+      <td>P2</td>
+      <td>Keerthi</td>
+      <td>Manikanta</td>
+    </tr>
+    <tr>
+      <td>P3</td>
+      <td>Madhra Sri</td>
+      <td>Ravipati</td>
+    </tr>
+    <tr>
+      <td>P4</td>
+      <td>Likesh</td>
+      <td>Boyanapalli</td>
+
+
+  </table>
+  <br>
+  <h2>Unordered List</h2>
+  <ul>
+    <li>list item 1</li>
+    <li>List item 2<ul>
+        <li>som ething is in this</li>
+      </ul>
+    </li>
+    <li>list item 3</li>
+  </ul>
+  <br>
+  <h2>Ordered List</h2>
+  <ol>
+    <li>list item 1</li>
+    <li>List item 2<ol>
+        <li>nested list</li>
+      </ol>
+    </li>
+    <li>list item 3</li>
+  </ol>
+  <br>
+  <h3>Definition list</h3>
+  <p><b>defines terms 1</b></p>
+  <p>description 1</p>
+  <p><b>defines terms 2</b></p>
+  <p>description 2</p>
+  <label for="details">Details:</label>
+  <select name="details" id="details">
+    <option value="Html">HTML</option>
+    <option value="CSS">CSS</option>
+    <option value="Python">Python</option>
+    <option value="JAVA">JAVA</option>
+  </select>
+  <hr>
+  <h1> Text Formats </h1>
+  <p>Bold<br><b>Act as if what you do makes a difference</b>
+    <br>Strong <br><strong>Act as if what you do makes a difference</strong><br>
+    Italic <br><i>Act as if what you do makes a difference</i><br>
+    Emphasized <br><em>Act as if what you do makes a difference</em><br>
+    Subscript and Superscript <br>Act as <sub>if what</sub> you do<sup> makes a<sup> difference<br>
+  </p>
+
+  <br><br>
+  <div class="box">
+    <pre>
+    <h2> Preformatted Text </h2>
+    Text in a    pre element
+    is     displayed in a    fixed-width
+         font,     and it preserves
+    both             spaces and
+         line breaks
+    </pre>
+  </div>
+  <br><br>
+
+  <h2> Code </h2>
+  <div class="box">
+
+    # Magic of f-String
+    # Normal Method
+    name = "Codedev"
+    lang = "Python"
+    data = "{} is writing article on {}".format(name, lang)
+    print(data)
+    # Pro Method with f-string
+    data = f"{name} is writing article on {lang}"
+    print(data)
+  </div>
+
+  <h3>Blockquotes</h3>
+  <p>Lets keep it simple..Itaics are good ...some thing matter is given but i dont want to write it so i'm typing this thing</p>
+  <blockquote cite="https://google.com">
+    <p>"ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+      officia deserunt mollit anim id est laborum."<br><a href="#">siva kalyan</a></p>
+
+  </blockquote>
+  <hr>
+    <form action="/action_page.php">
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname"><br><br>
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname"><br><br>
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email"><br><br>
+      <textarea name="" id="" cols="30" rows="10"></textarea><br><br>
+      <input type="submit" value="Submit">
+    </form>
+
+ 
+</body>
+
+</html>
